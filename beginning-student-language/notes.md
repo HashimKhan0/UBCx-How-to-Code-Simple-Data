@@ -55,6 +55,7 @@
     - replace function call by body of function in which every occurence of params are replaced by corresponding argument
 
 # Booleans and if Expressions
+* *bools-and-ifs.rkt*
 * there are two boolean values true and false
 * the primitives that produce a boolean value are often called predicates
 * syntax is the same as a primitive call using + - / etc *(> 1 2)*
