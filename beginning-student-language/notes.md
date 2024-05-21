@@ -9,14 +9,11 @@
 * Be able to use the stepper to automatically step through the evaluation of an expression.
 * Be able to use the Dr Racket help desk to discover new primitives.
 
-# Expressions Pt 1 
+# Expressions
 * *(pythag-starter.rkt)*
 * the associated file for this section is pythag-starter.rkt
 * the way to form an expression is *((primitive operator) (expression)...)*
 * the convention is to use spaces in the manner preceeding. *(+ (+ 1 2) 3)*
-
-# Expressions Pt 2
-* *(pythag-starter.rkt)*
 * an expression is anything that returns a value 
 * it can be as simple as the number 1 or the square root of 144
 
@@ -37,3 +34,5 @@
 * calls to string & image primatives work similarly to previous primitive call
 * primitive calls such as + or - do not work on strings 
 * (substring "caribou" 2 4) outputs "ri" due to 0 based indexing and note it does not include the 4th character b
+* using different primitives such as circle, rectangle, text we can produce images in racket
+* others operate on images such as overlay, beside, above etc 
