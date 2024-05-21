@@ -1,4 +1,4 @@
-# Overview
+# Overview *<associated file>*
 * this course uses BSL as its simplicity allows us more time to spend learning the design method 
 * BSL also forms the core of nearly every other language we use
 **Learning Goals**
@@ -27,7 +27,7 @@
 * in the case above this process begins again when met with another primitive call 
 * intuitively in BSL evaluation goes from left to right and inside to out
 
-# Strings & Images 
+# Strings & Images *(string-images.rkt)*
 * numbers are not the only kind of primitive kind of data in Racket
 * calls to string & image primatives work similarly to previous primitive call
 * primitive calls such as + or - do not work on strings 
