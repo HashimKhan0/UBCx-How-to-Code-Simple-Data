@@ -1,4 +1,4 @@
-# Overview *<associated file>*
+# Overview *(associated file)*
 * this course uses BSL as its simplicity allows us more time to spend learning the design method 
 * BSL also forms the core of nearly every other language we use
 **Learning Goals**
@@ -10,7 +10,7 @@
 
 # Expressions Pt 1 *(pythag-starter.rkt)*
 * the associated file for this section is pythag-starter.rkt
-* the way to form an expression is *(<primitive operator> <expression>...)*
+* the way to form an expression is *((primitive operator) (expression)...)*
 * the convention is to use spaces in the manner preceeding. *(+ (+ 1 2) 3)*
 
 # Expressions Pt 2 *(pythag-starter.rkt)*
