@@ -53,3 +53,17 @@
 * to evaluate a function call
     - reduce operands to values(arguments)
     - replace function call by body of function in which every occurence of params are replaced by corresponding argument
+
+# Booleans and if Expressions
+* there are two boolean values true and false
+* the primitives that produce a boolean value are often called predicates
+* syntax is the same as a primitive call using + - / etc *(> 1 2)*
+* 
+* syntax of an if expression is (if *(predicate)* *(true result)* *(false result)*) 
+* the evaluation rules of an if expression:
+    1. evlauate the question expression and replace with a value
+    2. if true replace entire if expression with true expression
+    3. if false replace entire if expression with false expression
+    4. the question is not a boolean value then replace entire expression with an error
+* we can wrap different predicates into one using another primitive such as *and* *or* *not*
+
