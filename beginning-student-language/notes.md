@@ -44,3 +44,12 @@
 * aside from convienence they help us make programs that are easy to read and change for other people 
 * readibility and changeability are two of the most important properties a program can have
 * we can apply primitive calls to constant definitions 
+
+# Functions
+* *function-definitions-starter.rkt*
+* the mechanism that allows us to write programs that results in a different value each time
+* in the assoicated file we can see that most of our code is static while the colour only varies 
+* similar to functions in math we can have multivariable functions that will have some constants(static values) while also accepting params
+* to evaluate a function call
+    - reduce operands to values(arguments)
+    - replace function call by body of function in which every occurence of params are replaced by corresponding argument
