@@ -8,21 +8,27 @@
 * Be able to use the stepper to automatically step through the evaluation of an expression.
 * Be able to use the Dr Racket help desk to discover new primitives.
 
-# Expressions Pt 1
+# Expressions Pt 1 *(pythag-starter.rkt)*
 * the associated file for this section is pythag-starter.rkt
 * the way to form an expression is *(<primitive operator> <expression>...)*
 * the convention is to use spaces in the manner preceeding. *(+ (+ 1 2) 3)*
 
-# Expressions Pt 2
+# Expressions Pt 2 *(pythag-starter.rkt)*
 * an expression is anything that returns a value 
 * it can be as simple as the number 1 or the square root of 144
 
-# Evaluation
+# Evaluation *(pythag-starter.rkt)*
 * an expression that starts with an open parentsis and a primitive operation is called a primitive call or call to a primitive 
-* in the expression *(+ 2 (* 3 4) (- (+ 1 2) 3))* the + operator and and what follows are the operands
+* in the expression "(+ 2 (* 3 4) (- (+ 1 2) 3))" the + operator and and what follows are the operands
 * when the above line of code runs racket recognizes its a primitive call
 * to evalaute a primitive call:
     1. first reduce operands to values
     2. then apply primitive to the values
 * in the case above this process begins again when met with another primitive call 
 * intuitively in BSL evaluation goes from left to right and inside to out
+
+# Strings & Images 
+* numbers are not the only kind of primitive kind of data in Racket
+* calls to string & image primatives work similarly to previous primitive call
+* primitive calls such as + or - do not work on strings 
+* (substring "caribou" 2 4) outputs "ri" due to 0 based indexing and note it does not include the 4th character b
