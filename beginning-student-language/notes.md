@@ -36,3 +36,11 @@
 * (substring "caribou" 2 4) outputs "ri" due to 0 based indexing and note it does not include the 4th character b
 * using different primitives such as circle, rectangle, text we can produce images in racket
 * others operate on images such as overlay, beside, above etc 
+
+
+# Constant Definitions
+* *constant-def.rkt*
+* constant definitions allow us to give names to values to use in other parts of the program
+* aside from convienence they help us make programs that are easy to read and change for other people 
+* readibility and changeability are two of the most important properties a program can have
+* we can apply primitive calls to constant definitions 
