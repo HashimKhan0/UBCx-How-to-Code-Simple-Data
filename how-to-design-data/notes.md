@@ -31,6 +31,15 @@
 
 # Itemization
 * similar to enumeration the type comment starts off with a one of but it may not consist of distinct values
+* in the example countdown-starter we have mixed data.
+* in some cases what may occur is our input may be a string, boolean, int etc
+* and as a result some primitives may cause errors such as string=? on a number
+* to counter this we can code in a check for the type of data 
+* as tedious as it seems in most other programming languages the type checker enforce rules about function arguments matching the function signature
+* with this in mind we can reduce our code with that in mind
+* i.e if our last subclass will be a string then there is no need for a string=? check before continuing with the function
+
+# HtDF with Interval
 * 
 
 
