@@ -39,8 +39,7 @@
 * with this in mind we can reduce our code with that in mind
 * i.e if our last subclass will be a string then there is no need for a string=? check before continuing with the function
 
-# HtDF with Interval
-* 
+
 
 
 
