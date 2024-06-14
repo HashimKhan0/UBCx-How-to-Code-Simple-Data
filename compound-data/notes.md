@@ -3,3 +3,4 @@
 * but they all have been atomic
 * but in this section we will cover data that comes naturally together i.e wage and pay
 * we can use define struct similar to define 
+* using a define struct allows us to use a constructor, selector, predicate 
