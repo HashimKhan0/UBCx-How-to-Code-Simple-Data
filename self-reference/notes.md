@@ -10,5 +10,3 @@
 * there should be examples of each case of data and some self reference examples
 * a natural recursion is where the recursion occurs in the function as well as the type comment
 
-# Designing with Lists
-* 
